@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-describe("todo-list ", () => {
+describe("todo list interaction", () => {
     beforeEach(()=>{
         cy.visit("/To-Do-List/");
     })
